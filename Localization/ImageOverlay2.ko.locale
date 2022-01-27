@@ -1,0 +1,50 @@
+<!DOCTYPE resources [
+  <!ELEMENT resources ANY>
+  <!ELEMENT string ANY>
+  <!ATTLIST string name ID #REQUIRED>
+]>
+<!--
+Image Overlay 2 Default Locale Template
+-->
+<resources>
+	<string name="ModDescription">게임 지도 위에 이미지를 오버레이합니다</string>
+     <!-- Tab Strips -->
+    <string name="MainOptionTab">기본 옵션</string>
+    <string name="KeyboardShortcutTab">키 바인딩</string>
+	<string name="KeyboardDirectionShortcutTab">Direction 키 바인딩</string>
+    <string name="KeyBindDescription">차렷!키 충돌이 발생하면 바로 가기 키를 수동으로 재설정하십시오</string>
+	<string name="DirectionKeyBindDescription">차렷!고속/저속 이동은 기본적으로 단축키를 제공하지 않습니다!</string>
+    <!-- Main options -->
+	<string name="EnableMod">mod 단축키 기능을 활성화합니다</string>
+	<string name="VisibilityAdjustment">가시성 조정 : {0}% </string>
+	<string name="Apply">적용</string>
+	<string name="Attention">차렷!PNG 파일이 너무 크면 가시성 조정을 적용할 때 로딩이 정지될 수 있습니다</string>
+	<!-- KeyBinding options -->
+	<string name="PressAnyKey">아무 키나 누르다</string>
+	<string name="FitToTile">타일에 맞추다</string>
+	<string name="CycleThroughImages">이미지 순환 Cycle through images</string>
+	<string name="Active">이미 지를 표시/숨기기</string>
+	<string name="ResetPositionToDefault">Position을 Default로 재설정</string>
+	<string name="Lock">위치</string>
+	<string name="ScaleUp">이미지를 확대하다</string>
+	<string name="ScaleDown">이미지를 축소하다</string>
+	<string name="Rotating90DegressClockwise">이미지를 시계 방향으로 90도 회전합니다</string>
+	<string name="Rotating90DegressClockwiseRevert">이미지를 시계 반대 방향으로 90도 회전합니다</string>
+	<string name="RotatingClockwise">시계 방향으로 회전</string>
+	<string name="RotatingClockwiseRevert">반시계방향 회전 정밀한 시계방향 회전</string>
+	<string name="PreciseClockwiseRotation">정밀한 시계 방향 회전</string>
+	<string name="PreciseCounterclockwiseRotation">정확한 반시계 방향 회전</string>
+	<!-- Direction shortcut options -->
+	<string name="MoveUp">위로 이동</string>
+	<string name="MoveDown">아래로 이동</string>
+	<string name="MoveLeft">왼쪽 이동</string>
+	<string name="MoveRight">당장 움직이</string>
+	<string name="SlowMoveUp">천천히 Move up</string>
+	<string name="SlowMoveDown">천천히 Move down</string>
+	<string name="SlowMoveLeft">왼쪽으로 천천히 움직이다</string>
+	<string name="SlowMoveRight">Move right 천천히</string>
+	<string name="FastMoveUp">빨리 위로 올라가다</string>
+	<string name="FastMoveDown">빨리 내려가다</string>
+	<string name="FastMoveLeft">왼쪽으로 빨리 움직이다</string>
+	<string name="FastMoveRight">빠르게 왼쪽으로 이동</string>
+</resources>

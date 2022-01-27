@@ -1,0 +1,50 @@
+<!DOCTYPE resources [
+  <!ELEMENT resources ANY>
+  <!ELEMENT string ANY>
+  <!ATTLIST string name ID #REQUIRED>
+]>
+<!--
+Image Overlay 2 Default Locale Template
+-->
+<resources>
+	<string name="ModDescription">ゲームマップの上に画像をオーバーレイします</string>
+     <!-- Tab Strips -->
+    <string name="MainOptionTab">主なオプション</string>
+    <string name="KeyboardShortcutTab">鍵ステープル</string>
+	<string name="KeyboardDirectionShortcutTab">方向キーステープル</string>
+    <string name="KeyBindDescription">注目!キーの競合が発生した場合、ショートカットキーを手動でリセットします</string>
+	<string name="DirectionKeyBindDescription">注目!高速/低速の移動は、デフォルトではショートカットキーを提供しません!</string>
+    <!-- Main options -->
+	<string name="EnableMod">modショートカットキー機能を有効にします</string>
+	<string name="VisibilityAdjustment">視認性調整 : {0}% </string>
+	<string name="Apply">適用</string>
+	<string name="Attention">注目!pngファイルが大きすぎると、可視性の調整を適用すると読み込みがフリーズすることがあります</string>
+	<!-- KeyBinding options -->
+	<string name="PressAnyKey">何れかのキー</string>
+	<string name="FitToTile">に瓦</string>
+	<string name="CycleThroughImages">サイクル映像による</string>
+	<string name="Active">ショー/隠す画像は</string>
+	<string name="ResetPositionToDefault">ポジションをデフォルトにリセット</string>
+	<string name="Lock">ロック</string>
+	<string name="ScaleUp">の表示</string>
+	<string name="ScaleDown">縮小画像</string>
+	<string name="Rotating90DegressClockwise">画像を時計回りに90度回転させます</string>
+	<string name="Rotating90DegressClockwiseRevert">画像を反時計回りに90度回転させます</string>
+	<string name="RotatingClockwise">时计回りに</string>
+	<string name="RotatingClockwiseRevert">反時計回りに回転時計回りに回転します</string>
+	<string name="PreciseClockwiseRotation">正確な时计回りに</string>
+	<string name="PreciseCounterclockwiseRotation">正確な反時計回転方向へ回転</string>
+	<!-- Direction shortcut options -->
+	<string name="MoveUp">上がっていき</string>
+	<string name="MoveDown">下に移動しろ</string>
+	<string name="MoveLeft">左巻き</string>
+	<string name="MoveRight">右に移動</string>
+	<string name="SlowMoveUp">移動徐ろに立って</string>
+	<string name="SlowMoveDown">ゆっくり下に移動しろ</string>
+	<string name="SlowMoveLeft">左巻きゆっくり</string>
+	<string name="SlowMoveRight">ゆっくり右に移動</string>
+	<string name="FastMoveUp">早く移動</string>
+	<string name="FastMoveDown">早く下に移動しろ</string>
+	<string name="FastMoveLeft">早く左巻き</string>
+	<string name="FastMoveRight">早く右に移動</string>
+</resources>

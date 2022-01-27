@@ -1,0 +1,50 @@
+<!DOCTYPE resources [
+  <!ELEMENT resources ANY>
+  <!ELEMENT string ANY>
+  <!ATTLIST string name ID #REQUIRED>
+]>
+<!--
+Image Overlay 2 Default Locale Template
+-->
+<resources>
+	<string name="ModDescription">Superponer la imagen en la parte superior del mapa del juego</string>
+     <!-- Tab Strips -->
+    <string name="MainOptionTab">Principales opciones</string>
+    <string name="KeyboardShortcutTab">Clave vinculante</string>
+	<string name="KeyboardDirectionShortcutTab">Dirección clave de enlace</string>
+    <string name="KeyBindDescription">¡Atención! Reinicie las teclas de acceso directo manualmente cuando se produzcan conflictos de claves</string>
+	<string name="DirectionKeyBindDescription">¡Atención! ¡El movimiento rápido/lento no proporciona teclas de acceso directo por defecto!</string>
+    <!-- Main options -->
+	<string name="EnableMod">Habilitar la función de tecla de acceso directo mod</string>
+	<string name="VisibilityAdjustment">Ajuste de la visibilidad : {0}% </string>
+	<string name="Apply">solicitud</string>
+	<string name="Attention">¡Atención! Cuando los archivos PNG son demasiado grandes, la carga se congela cuando se aplican ajustes de visibilidad</string>
+	<!-- KeyBinding options -->
+	<string name="PressAnyKey">Presione cualquier tecla</string>
+	<string name="FitToTile">Ajuste a la baldosa</string>
+	<string name="CycleThroughImages">Ciclo a través de imágenes</string>
+	<string name="Active">Mostrar/ocultar imágenes</string>
+	<string name="ResetPositionToDefault">Restablecer la posición por defecto</string>
+	<string name="Lock">Posición de bloqueo</string>
+	<string name="ScaleUp">Ampliar la imagen</string>
+	<string name="ScaleDown">Reducir la imagen</string>
+	<string name="Rotating90DegressClockwise">Gire la imagen 90 grados en el sentido de las agujas del reloj</string>
+	<string name="Rotating90DegressClockwiseRevert">Gire la imagen 90 grados en sentido contrario a las agujas del reloj</string>
+	<string name="RotatingClockwise">Rotación de las agujas del reloj</string>
+	<string name="RotatingClockwiseRevert">Rotación en sentido contrario a las agujas del reloj precisa rotación en sentido contrario a las agujas del reloj</string>
+	<string name="PreciseClockwiseRotation">Precisa rotación en el sentido de las agujas del reloj</string>
+	<string name="PreciseCounterclockwiseRotation">Precisa rotación en sentido contrario a las agujas del reloj</string>
+	<!-- Direction shortcut options -->
+	<string name="MoveUp">Moverse hacia arriba</string>
+	<string name="MoveDown">Moverse hacia abajo</string>
+	<string name="MoveLeft">Mover hacia la izquierda</string>
+	<string name="MoveRight">Mover a la derecha</string>
+	<string name="SlowMoveUp">Moverse hacia arriba lentamente.</string>
+	<string name="SlowMoveDown">Movimiento hacia abajo lentamente.</string>
+	<string name="SlowMoveLeft">Mover lentamente hacia la izquierda.</string>
+	<string name="SlowMoveRight">El movimiento hacia el derecho lentamente.</string>
+	<string name="FastMoveUp">Move up quickly</string>
+	<string name="FastMoveDown">Se mueven hacia abajo rápidamente</string>
+	<string name="FastMoveLeft">Mover rápidamente a la izquierda</string>
+	<string name="FastMoveRight">Moverse rápidamente hacia la derecha</string>
+</resources>

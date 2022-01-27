@@ -1,0 +1,50 @@
+<!DOCTYPE resources [
+  <!ELEMENT resources ANY>
+  <!ELEMENT string ANY>
+  <!ATTLIST string name ID #REQUIRED>
+]>
+<!--
+Image Overlay 2 Default Locale Template
+-->
+<resources>
+	<string name="ModDescription">Superposez l’image sur la carte du jeu</string>
+     <!-- Tab Strips -->
+    <string name="MainOptionTab">Principales Options</string>
+    <string name="KeyboardShortcutTab">Clé de liaison</string>
+	<string name="KeyboardDirectionShortcutTab">Clé de Direction</string>
+    <string name="KeyBindDescription">Attention! Réinitialisez manuellement les clés de raccourci lorsque des conflits de clés surviennent</string>
+	<string name="DirectionKeyBindDescription">Attention! Fast/Slow moving ne fournit pas de raccourci par défaut!</string>
+    <!-- Main options -->
+	<string name="EnableMod">Activez la fonction clé de raccourci mod</string>
+	<string name="VisibilityAdjustment">Ajustement de la visibilité : {0}% </string>
+	<string name="Apply">appliquer</string>
+	<string name="Attention">Attention! Lorsque les fichiers PNG sont trop grands, le chargement peut être bloqué lors des ajustements de visibilité</string>
+	<!-- KeyBinding options -->
+	<string name="PressAnyKey">Appuyez sur n’importe quelle touche</string>
+	<string name="FitToTile">carrelage</string>
+	<string name="CycleThroughImages">Cycle à travers les images</string>
+	<string name="Active">Montrer/cacher des images</string>
+	<string name="ResetPositionToDefault">Réinitialisation de la Position par défaut</string>
+	<string name="Lock">Position du verrouillage</string>
+	<string name="ScaleUp">Agrandissez l’image.</string>
+	<string name="ScaleDown">Rétrécir l’image</string>
+	<string name="Rotating90DegressClockwise">Tournez l’image 90 degrés dans le sens des aiguilles d’une montre</string>
+	<string name="Rotating90DegressClockwiseRevert">Tournez l’image 90 degrés dans le sens inverse des aiguilles d’une montre</string>
+	<string name="RotatingClockwise">Rotation dans le sens des aiguilles d’une montre</string>
+	<string name="RotatingClockwiseRevert">Rotation dans le sens inverse des aiguilles d’une montre</string>
+	<string name="PreciseClockwiseRotation">Rotation précise dans le sens des aiguilles d’une montre</string>
+	<string name="PreciseCounterclockwiseRotation">Rotation précise dans le sens inverse des aiguilles d’une montre</string>
+	<!-- Direction shortcut options -->
+	<string name="MoveUp">Montez.</string>
+	<string name="MoveDown">Descendez.</string>
+	<string name="MoveLeft">Bouge à gauche.</string>
+	<string name="MoveRight">Allez à droite.</string>
+	<string name="SlowMoveUp">Montez doucement.</string>
+	<string name="SlowMoveDown">Descendez doucement.</string>
+	<string name="SlowMoveLeft">Tournez à gauche doucement.</string>
+	<string name="SlowMoveRight">Allez doucement à droite.</string>
+	<string name="FastMoveUp">Montez vite.</string>
+	<string name="FastMoveDown">Descendez vite.</string>
+	<string name="FastMoveLeft">Vite à gauche.</string>
+	<string name="FastMoveRight">Allez à droite.</string>
+</resources>

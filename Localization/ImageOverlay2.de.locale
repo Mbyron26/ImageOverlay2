@@ -1,0 +1,50 @@
+<!DOCTYPE resources [
+  <!ELEMENT resources ANY>
+  <!ELEMENT string ANY>
+  <!ATTLIST string name ID #REQUIRED>
+]>
+<!--
+Image Overlay 2 Default Locale Template
+-->
+<resources>
+	<string name="ModDescription">Überlagern Sie das Bild über der Spielkarte</string>
+     <!-- Tab Strips -->
+    <string name="MainOptionTab">Hauptoptionen</string>
+    <string name="KeyboardShortcutTab">Shortcut</string>
+	<string name="KeyboardDirectionShortcutTab">Richtungstastenbindung</string>
+    <string name="KeyBindDescription">Aufmerksamkeit!  Manuelles Zurücksetzen der Tastenkombinationen bei Auftreten von Tastenkonflikten</string>
+	<string name="DirectionKeyBindDescription">Aufmerksamkeit!  Fast/Slow moving bietet standardmäßig keine Tastenkombinationen!</string>
+    <!-- Main options -->
+	<string name="EnableMod">Mod-Tastenkombination aktivieren</string>
+	<string name="VisibilityAdjustment">Sichtbarkeitsanpassung : {0}% </string>
+	<string name="Apply">Anwenden</string>
+	<string name="Attention">Aufmerksamkeit!  Wenn PNG-Dateien zu groß sind, kann das Laden beim Anwenden von Sichtbarkeitsanpassungen einfrieren</string>
+	<!-- KeyBinding options -->
+	<string name="PressAnyKey">Drücken Sie eine beliebige Taste</string>
+	<string name="FitToTile">An Kachel anpassen</string>
+	<string name="CycleThroughImages">Durchlaufen von Bildern</string>
+	<string name="Active">Bilder ein-/ausblenden</string>
+	<string name="ResetPositionToDefault">Position auf Standard zurücksetzen</string>
+	<string name="Lock">Verriegelungsposition</string>
+	<string name="ScaleUp">Vergrößern sie das Bild</string>
+	<string name="ScaleDown">Verkleinern des Bildes</string>
+	<string name="Rotating90DegressClockwise">Drehen Sie das Bild um 90 Grad im Uhrzeigersinn</string>
+	<string name="Rotating90DegressClockwiseRevert">Drehen Sie das Bild um 90 Grad gegen den Uhrzeigersinn</string>
+	<string name="RotatingClockwise">Rechtsdrehung</string>
+	<string name="RotatingClockwiseRevert">Drehung gegen den Uhrzeigersinn Präzise Drehung im Uhrzeigersinn</string>
+	<string name="PreciseClockwiseRotation">Präzise Drehung im Uhrzeigersinn</string>
+	<string name="PreciseCounterclockwiseRotation">Präzise Drehung gegen den Uhrzeigersinn</string>
+	<!-- Direction shortcut options -->
+	<string name="MoveUp">Aufrücken</string>
+	<string name="MoveDown">Nach unten bewegen</string>
+	<string name="MoveLeft">Nach links bewegen</string>
+	<string name="MoveRight">Nach rechts bewegen</string>
+	<string name="SlowMoveUp">Bewegen Sie sich langsam nach oben</string>
+	<string name="SlowMoveDown">Bewegen Sie sich langsam nach unten</string>
+	<string name="SlowMoveLeft">Langsam nach links bewegen</string>
+	<string name="SlowMoveRight">Bewegen Sie sich langsam nach rechts</string>
+	<string name="FastMoveUp">Schnell aufsteigen</string>
+	<string name="FastMoveDown">Bewegen Sie sich schnell nach unten</string>
+	<string name="FastMoveLeft">Schnell nach links bewegen</string>
+	<string name="FastMoveRight">Bewegen Sie sich schnell nach rechts</string>
+</resources>

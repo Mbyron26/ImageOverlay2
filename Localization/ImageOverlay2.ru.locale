@@ -1,0 +1,50 @@
+<!DOCTYPE resources [
+  <!ELEMENT resources ANY>
+  <!ELEMENT string ANY>
+  <!ATTLIST string name ID #REQUIRED>
+]>
+<!--
+Image Overlay 2 Default Locale Template
+-->
+<resources>
+	<string name="ModDescription">Наложения изображения на верхней части карты игры</string>
+     <!-- Tab Strips -->
+    <string name="MainOptionTab">Основные опции</string>
+    <string name="KeyboardShortcutTab">Ключ для подключения</string>
+	<string name="KeyboardDirectionShortcutTab">Привязка ключа управления</string>
+    <string name="KeyBindDescription">Внимание! Перезагрузите клавиши ярлыка вручную при возникновении конфликтов клавиш</string>
+	<string name="DirectionKeyBindDescription">Внимание! Быстрый/медленный ход не обеспечивает клавиши быстрого доступа по умолчанию!</string>
+    <!-- Main options -->
+	<string name="EnableMod">Включить функцию контекстного ключа mod</string>
+	<string name="VisibilityAdjustment">Регулировка видимости : {0}% </string>
+	<string name="Apply">Применить</string>
+	<string name="Attention">Внимание! Если файлы PNG слишком большие, загрузка может замерзать при настройке видимости</string>
+	<!-- KeyBinding options -->
+	<string name="PressAnyKey">Нажмите любую клавишу</string>
+	<string name="FitToTile">Подходит для плитки</string>
+	<string name="CycleThroughImages">Цикл через изображения</string>
+	<string name="Active">Показать/спрятать изображения</string>
+	<string name="ResetPositionToDefault">Сбросьте положение по умолчанию</string>
+	<string name="Lock">Положение шлюза</string>
+	<string name="ScaleUp">Увеличить изображение</string>
+	<string name="ScaleDown">Уменьшить изображение</string>
+	<string name="Rotating90DegressClockwise">Повернуть изображение на 90 градусов по часовой стрелке</string>
+	<string name="Rotating90DegressClockwiseRevert">Повернуть изображение на 90 градусов против часовой стрелки</string>
+	<string name="RotatingClockwise">Вращение по часовой стрелке</string>
+	<string name="RotatingClockwiseRevert">Точное вращение против часовой стрелки</string>
+	<string name="PreciseClockwiseRotation">Точное вращение по часовой стрелке</string>
+	<string name="PreciseCounterclockwiseRotation">Точное вращение против часовой стрелки</string>
+	<!-- Direction shortcut options -->
+	<string name="MoveUp">А теперь вперед.</string>
+	<string name="MoveDown">- давай вниз.</string>
+	<string name="MoveLeft">- поверни налево.</string>
+	<string name="MoveRight">А теперь направо.</string>
+	<string name="SlowMoveUp">Медленно поднимайтесь вверх.</string>
+	<string name="SlowMoveDown">Медленно спускайся вниз.</string>
+	<string name="SlowMoveLeft">Медленно поверни налево.</string>
+	<string name="SlowMoveRight">Медленно повернись направо.</string>
+	<string name="FastMoveUp">Быстро поднимайтесь наверх.</string>
+	<string name="FastMoveDown">Быстро спускайся вниз.</string>
+	<string name="FastMoveLeft">Быстро свернуть налево.</string>
+	<string name="FastMoveRight">Двигайтесь прямо сейчас.</string>
+</resources>

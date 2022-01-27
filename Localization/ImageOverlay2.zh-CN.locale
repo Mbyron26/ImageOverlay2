@@ -1,0 +1,50 @@
+<!DOCTYPE resources [
+  <!ELEMENT resources ANY>
+  <!ELEMENT string ANY>
+  <!ATTLIST string name ID #REQUIRED>
+]>
+<!--
+Image Overlay 2 Default Locale Template
+-->
+<resources>
+	<string name="ModDescription">将图片置于游戏地图之上</string>
+     <!-- Tab Strips -->
+    <string name="MainOptionTab">主菜单</string>
+    <string name="KeyboardShortcutTab">主用快捷键</string>
+	<string name="KeyboardDirectionShortcutTab">方向快捷键</string>
+	<string name="KeyBindDescription">注意! 当出现按键冲突时请手动重置快捷键</string>
+	<string name="DirectionKeyBindDescription">注意! 快速/缓慢移动默认不提供快捷键!</string>
+    <!-- Main options -->
+	<string name="EnableMod">启用模组快捷键功能</string>
+    <string name="VisibilityAdjustment">可见度调节 : {0}% </string>
+	<string name="Apply">应用</string>
+	<string name="Attention">注意! 当PNG文件过大时, 应用可见度调节时可能会出现载入卡顿</string>
+	<!-- KeyBinding options -->
+	<string name="PressAnyKey">按任意键</string>
+	<string name="FitToTile">图像占格切换</string>
+	<string name="CycleThroughImages">加载另一图像</string>
+	<string name="Active">显示/隐藏图像</string>
+	<string name="ResetPositionToDefault">重置位置</string>
+	<string name="Lock">锁定位置</string>
+	<string name="ScaleUp">放大图像</string>
+	<string name="ScaleDown">缩小图像</string>
+	<string name="Rotating90DegressClockwise">顺时针旋转图像90度</string>
+	<string name="Rotating90DegressClockwiseRevert">逆时针旋转图像90度</string>
+	<string name="RotatingClockwise">顺时针旋转</string>
+	<string name="RotatingClockwiseRevert">逆时针旋转</string>
+	<string name="PreciseClockwiseRotation">精准顺时针旋转 </string>
+	<string name="PreciseCounterclockwiseRotation">精准逆时针旋转</string>
+	<!-- Direction shortcut options -->
+	<string name="MoveUp">向上移动</string>
+	<string name="MoveDown">向下移动</string>
+	<string name="MoveLeft">向左移动</string>
+	<string name="MoveRight">向右移动</string>
+	<string name="SlowMoveUp">缓慢向上移动</string>
+	<string name="SlowMoveDown">缓慢向下移动</string>
+	<string name="SlowMoveLeft">缓慢向左移动</string>
+	<string name="SlowMoveRight">缓慢向右移动</string>
+	<string name="FastMoveUp">快速向上移动</string>
+	<string name="FastMoveDown">快速向下移动</string>
+	<string name="FastMoveLeft">快速向左移动</string>
+	<string name="FastMoveRight">快速向右移动</string>
+</resources>

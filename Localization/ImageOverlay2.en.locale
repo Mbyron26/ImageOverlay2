@@ -1,0 +1,50 @@
+<!DOCTYPE resources [
+  <!ELEMENT resources ANY>
+  <!ELEMENT string ANY>
+  <!ATTLIST string name ID #REQUIRED>
+]>
+<!--
+Image Overlay 2 Default Locale Template
+-->
+<resources>
+	<string name="ModDescription">Overlay the image on top of the game map</string>
+     <!-- Tab Strips -->
+    <string name="MainOptionTab">Main Options</string>
+    <string name="KeyboardShortcutTab">Key Binding</string>
+	<string name="KeyboardDirectionShortcutTab">Direction Key Binding</string>
+    <string name="KeyBindDescription">Attention! Reset the shortcut keys manually when key conflicts occur</string>
+	<string name="DirectionKeyBindDescription">Attention! Fast/Slow moving does not provide shortcut keys by default!</string>
+    <!-- Main options -->
+	<string name="EnableMod">Enable mod shortcut key function</string>
+	<string name="VisibilityAdjustment">Visibility Adjustment : {0}% </string>
+	<string name="Apply">Apply</string>
+	<string name="Attention">Attention! When PNG files are too large, loading freezes may occur when applying visibility adjustments</string>
+	<!-- KeyBinding options -->
+	<string name="PressAnyKey">Press any key</string>
+	<string name="FitToTile">Fit to tile</string>
+	<string name="CycleThroughImages">Cycle through images</string>
+	<string name="Active">Show/hide images</string>
+	<string name="ResetPositionToDefault">Reset Position To Default</string>
+	<string name="Lock">Lock position</string>
+	<string name="ScaleUp">Enlarge the image</string>
+	<string name="ScaleDown">Shrink the image</string>
+	<string name="Rotating90DegressClockwise">Rotate the image 90 degrees clockwise</string>
+	<string name="Rotating90DegressClockwiseRevert">Rotate the image 90 degrees counterclockwise</string>
+	<string name="RotatingClockwise">Clockwise rotation</string>
+	<string name="RotatingClockwiseRevert">Counterclockwise rotation Precise clockwise rotation</string>
+	<string name="PreciseClockwiseRotation">Precise clockwise rotation</string>
+	<string name="PreciseCounterclockwiseRotation">Precise counterclockwise rotation</string>
+	<!-- Direction shortcut options -->
+	<string name="MoveUp">Move up</string>
+	<string name="MoveDown">Move down</string>
+	<string name="MoveLeft">Move left</string>
+	<string name="MoveRight">Move right</string>
+	<string name="SlowMoveUp">Move up slowly</string>
+	<string name="SlowMoveDown">Move down slowly</string>
+	<string name="SlowMoveLeft">Move left slowly</string>
+	<string name="SlowMoveRight">Move right slowly</string>
+	<string name="FastMoveUp">Move up quickly</string>
+	<string name="FastMoveDown">Move down quickly</string>
+	<string name="FastMoveLeft">Move left quickly</string>
+	<string name="FastMoveRight">Move right quickly</string>
+</resources>
